@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- 0.12.0
+deploy:
+  provider: npm
+  email: simbo@simbo.de
+  api_key: "${NPM_API_KEY}"
+  on:
+    tags: true
+    repo: simbo/eslint-config-simbo
+after_script:
+- npm run cover
+- npm run codeclimate
+env:
+  global:
+    secure: pPTGoRpPZjhD7xv8u1OWLWqbQrj7IB4tMxdvNOoK79isqLfJwsndgBVpEfX9Dw2ijlQ292Dk3gaytFFDOzxq9EauRayjixkkKCHC5rrkVkwf/pCf2BE490zusBNcnaGgTjobxbj4J0lyjcGvVYU+POJLvrMAWyFrQPtoOTmYIJW0Rmvy3NAYphexF2j0RnbX+LMIdOZrdElRS3Fl4rrmxr01tg3Ff4o5uqBaMyXbAsC14H9yynwgT7dD/9pL2Ksb929/bGPCaNJlHynJLTK/RveUcIgDiudS33D61nC1g2IC4/UqbTfgx8KnIBXl17Hr3cD+M+ZjeeuZ6LG390iB7RDAoq4qYqCy++vUTKUCpgWi6nrMgmcR8ZvwYpjr80ZVNznQxJrKTF3iO1AyDI0ABSTJ9WaX9aAFPsX0ZDkNRTcscWEz8ajtiP8U3jQaw9ShzbsEvQ1nrYxmDaYmO5XMLizBXvrCYliTy0xUHqbLl/rpHYfzNbcotR1ChvA/pzh2yMcbap3LHofrwLgptEMU7/5uFL/AHcsnIniZhN9lMBn7ptJZe63C6hj8PLA4eTaDAXfOUn3fxwNgfhVeEU9NaCE7152MOrZHEVS7WhbV5S/IwSCdizQApk00lKZOeA2y2KUw0vRoqfbT98PUBAEZCyOugmNP7LwmvDDxxaHANoA=
