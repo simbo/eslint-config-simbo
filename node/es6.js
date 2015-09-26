@@ -1,5 +1,5 @@
 'use strict';
 
-var config = {
+module.exports = {
     extends: 'simbo/default/node/es6'
 };
