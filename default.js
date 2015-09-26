@@ -308,7 +308,7 @@ module.exports = {
         // enforce return after a callback
         'callback-return': [2, ['callback', 'cb', 'next', 'done']],
         // disallow require() outside of the top-level module scope
-        'global-require': 2,
+        'global-require': 0,
         // enforce error handling in callbacks
         'handle-callback-err': 1,
         // disallow mixing regular variable and require declarations
@@ -385,7 +385,7 @@ module.exports = {
         // disallow mixed 'LF' and 'CRLF' as linebreaks
         'linebreak-style': [2, 'unix'],
         // specify the maximum depth callbacks can be nested
-        'max-nested-callbacks': [1, 3],
+        'max-nested-callbacks': [1, 5],
         // require a capital letter for constructors
         'new-cap': [2, {
             newIsCap: true,
