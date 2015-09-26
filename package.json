@@ -19,5 +19,17 @@
   "bugs": {
     "url": "https://github.com/simbo/eslint-config-simbo/issues"
   },
-  "homepage": "https://github.com/simbo/eslint-config-simbo#readme"
+  "homepage": "https://github.com/simbo/eslint-config-simbo#readme",
+  "files": [
+    "browser/",
+    "default/",
+    "node/",
+    "browser.js",
+    "default.js",
+    "es6.js",
+    "node.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
 }
