@@ -136,7 +136,7 @@ module.exports = {
          */
 
         // Enforces getter/setter pairs in objects
-        'accessor-pairs': 1,
+        'accessor-pairs': 2,
         // treat var statements as if they were block scoped
         'block-scoped-var': 2,
         // specify the maximum cyclomatic complexity allowed in a program
@@ -296,7 +296,7 @@ module.exports = {
         // disallow declaration of variables that are not used in the code (recommended)
         'no-unused-vars': 2,
         // disallow use of variables before they are defined
-        'no-use-before-define': 2,
+        'no-use-before-define': [2, 'nofunc'],
 
 
         /**
@@ -364,7 +364,7 @@ module.exports = {
         'id-length': [2, {
             min: 2,
             properties: 'never',
-            exceptions: ['i']
+            exceptions: ['i', 'x', 'y', 'z', '_', '$']
         }],
         // require identifiers to match the provided regular expression
         'id-match': 0,
@@ -394,7 +394,7 @@ module.exports = {
         // disallow the omission of parentheses when invoking a constructor with no arguments
         'new-parens': 2,
         // require or disallow an empty newline after variable declarations
-        'newline-after-var': 2,
+        'newline-after-var': 0,
         // disallow use of the Array constructor
         'no-array-constructor': 2,
         // disallow use of the continue statement
@@ -426,7 +426,7 @@ module.exports = {
         // require or disallow padding inside curly braces
         'object-curly-spacing': [2, 'never'],
         // require or disallow one variable declaration per function
-        'one-var': [2, 'always'],
+        'one-var': 0,
         // require assignment operator shorthand where possible or prohibit it entirely
         'operator-assignment': [2, 'always'],
         // enforce operators to be placed before or after line breaks
