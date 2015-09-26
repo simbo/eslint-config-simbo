@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-simbo",
+  "version": "0.1.0",
+  "description": "Simbo's ESLint config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simbo/eslint-config-simbo.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simbo/eslint-config-simbo/issues"
+  },
+  "homepage": "https://github.com/simbo/eslint-config-simbo#readme"
+}
