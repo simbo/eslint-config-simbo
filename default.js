@@ -3,6 +3,16 @@
 module.exports = {
 
     /**
+     * Root
+     * ====
+     * This confuration, especially with its environmental heirs, is meant to have no parents.
+     * That's why we set this as root configuration.
+     */
+
+    root: true,
+
+
+    /**
      * Specifying Environments
      * =======================
      * An environment defines global variables that are predefined.
