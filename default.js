@@ -457,7 +457,7 @@ module.exports = {
         // require or disallow use of semicolons instead of ASI (fixable)
         semi: [2, 'always'],
         // sort variables within the same declaration block
-        'sort-vars': [2, {
+        'sort-vars': [0, {
             ignoreCase: true
         }],
         // require a space after certain keywords (fixable)
