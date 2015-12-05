@@ -2,10 +2,10 @@
 
 module.exports = {
 
-    extends: 'simbo/default',
+  extends: 'simbo/default',
 
-    env: {
-        browser: true
-    }
+  env: {
+    browser: true
+  }
 
 };
