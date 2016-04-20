@@ -218,7 +218,7 @@ module.exports = {
     // disallow creation of functions within loops
     'no-loop-func': 2,
     // disallow magic numbers
-    'no-magic-numbers': 2,
+    'no-magic-numbers': 0,
     // disallow use of multiple spaces
     'no-multi-spaces': [2, {
       exceptions: {
