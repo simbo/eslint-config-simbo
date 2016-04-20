@@ -16,6 +16,8 @@ module.exports = {
      * These rules are only relevant to ES6 environments.
      */
 
+    // require braces around arrow function bodies
+    'arrow-body-style': [2, 'as-needed'],
     // require parens in arrow function arguments
     'arrow-parens': [2, 'always'],
     // require space before/after arrow function's arrow
