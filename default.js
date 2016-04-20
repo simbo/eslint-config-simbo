@@ -402,7 +402,7 @@ module.exports = {
     'id-length': [2, {
       min: 2,
       properties: 'never',
-      exceptions: ['i', 'x', 'y', 'z', '_', '$']
+      exceptions: ['i', 'x', 'y', 'z', '_', '$', 'q', 'Q']
     }],
     // require identifiers to match the provided regular expression
     'id-match': 0,
