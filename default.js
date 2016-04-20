@@ -187,8 +187,6 @@ module.exports = {
     'no-div-regex': 2,
     // disallow else after a return in an if
     'no-else-return': 2,
-    // disallow use of labels for anything other than loops and switches
-    'no-empty-label': 2,
     // disallow comparisons to null without a type-checking operator
     'no-eq-null': 2,
     // disallow use of eval()
