@@ -492,7 +492,7 @@ module.exports = {
     // require or disallow padding inside curly braces
     'object-curly-spacing': [2, 'never'],
     // require or disallow one variable declaration per function
-    'one-var': 2,
+    'one-var': 0,
     // require or disallow newlines around var declarations
     'one-var-declaration-per-line': 2,
     // require assignment operator shorthand where possible or prohibit it entirely
