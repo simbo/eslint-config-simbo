@@ -316,7 +316,7 @@ module.exports = {
     // disallow specified global variables
     'no-restricted-globals': 0,
     // disallow declaration of variables already declared in the outer scope
-    'no-shadow': 2,
+    'no-shadow': 0,
     // disallow shadowing of names such as arguments
     'no-shadow-restricted-names': 0,
     // disallow use of undeclared variables unless mentioned in a /*global */ block (recommended)
@@ -470,7 +470,7 @@ module.exports = {
     // disallow multiple empty lines
     'no-multiple-empty-lines': 2,
     // disallow negated conditions
-    'no-negated-condition': 2,
+    'no-negated-condition': 0,
     // disallow nested ternary expressions
     'no-nested-ternary': 1,
     // disallow the use of the Object constructor
